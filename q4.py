@@ -2,13 +2,7 @@
 import numpy as np
 
 def solve_wave():
-    """
-    Solves the Wave Equation
-    p_tt = p_xx, for 0 <= x <= 1, t >= 0
-    BC: p(0,t)=1, p(1,t)=2
-    IC: p(x,0)=cos(2*pi*x), dp/dt(x,0)=2*pi*sin(2*pi*x)
-    Params: dx = dt = 0.1
-    """
+   
     print("=============== Problem 4: Wave Equation ===============\n")
 
     dx = 0.1
