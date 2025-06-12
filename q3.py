@@ -2,12 +2,7 @@
 import numpy as np 
 
 def solve_laplace_polar():
-    """
-    Solves Laplace's Equation in Polar Coordinates
-    T_rr + (1/r)T_r + (1/r^2)T_thetatheta = 0
-    for 1/2 <= r <= 1, 0 <= theta <= pi/3
-    BC: T(r,0)=0, T(r,pi/3)=0, T(1/2,theta)=50, T(1,theta)=100
-    """
+   
     print("=============== Problem 3: Laplace's Equation (Polar) ===============\n")
 
     # Discretization parameters
